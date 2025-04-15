@@ -14,7 +14,3 @@ std::unique_ptr<Shape> ShapeFactory::createShape(const std::string& type, double
         return nullptr;
     }
 }
-
-
-
-

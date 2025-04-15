@@ -1,3 +1,5 @@
+#ifndef CIRCLE_H
+#define CIRCLE_H
 
 #include "shape.h"
 
@@ -9,4 +11,4 @@ public:
     double area() const override;
 };
 
-
+#endif
