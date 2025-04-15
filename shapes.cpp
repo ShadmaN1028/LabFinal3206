@@ -1,4 +1,3 @@
-// shapes.cpp
 #include <iostream>
 #include <memory>
 #include <cmath>

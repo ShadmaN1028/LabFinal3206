@@ -1,10 +1,9 @@
-// test/shape_test.cpp
 #include <gtest/gtest.h>
-#include "shapes.cpp" // include implementation
+#include "shapes.cpp"
 
 TEST(ShapeFactoryTest, CircleArea) {
     auto shape = ShapeFactory::createShape("circle", 2.0);
-    EXPECT_NEAR(shape->area(), 13, 0.0001);
+    EXPECT_DOUBLE_EQ(shape->area(), 13.0);
 }
 
 TEST(ShapeFactoryTest, RectangleArea) {
