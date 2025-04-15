@@ -1,5 +1,6 @@
+// test/shape_test.cpp
 #include <gtest/gtest.h>
-#include "../shape_factory.h"
+#include "shapes.cpp" // include implementation
 
 TEST(ShapeFactoryTest, CircleArea) {
     auto shape = ShapeFactory::createShape("circle", 2.0);
