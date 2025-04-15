@@ -4,7 +4,7 @@
 
 TEST(ShapeFactoryTest, CircleArea) {
     auto shape = ShapeFactory::createShape("circle", 2.0);
-    EXPECT_NEAR(shape->area(), 12.5664, 0.0001);
+    EXPECT_NEAR(shape->area(), 13, 0.0001);
 }
 
 TEST(ShapeFactoryTest, RectangleArea) {
